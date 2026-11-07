@@ -1,0 +1,1469 @@
+# Cockpit Whale translation template.
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# Report source-string issues: https://github.com/yashjawale/cockpit-whale/issues
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: cockpit-whale development\n"
+"Report-Msgid-Bugs-To: https://github.com/yashjawale/cockpit-whale/issues\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: src/index.html:20 in.yashjawale.cockpit_whale.metainfo.xml:5
+msgid "Cockpit Whale"
+msgstr ""
+
+#: src/app.tsx:109 src/app.tsx:773 src/components/Containers.tsx:705
+#: src/components/Images.tsx:581
+#: src/components/PruneUnusedContainersModal.tsx:51
+msgid "system"
+msgstr ""
+
+#: src/app.tsx:109
+msgid "user"
+msgstr ""
+
+#: src/app.tsx:109 src/app.tsx:780
+msgid "Docker desktop"
+msgstr ""
+
+#: src/app.tsx:792 src/components/ImageRunModal.tsx:926
+msgid "User"
+msgstr ""
+
+#: src/app.tsx:836
+msgid "Administrative access required"
+msgstr ""
+
+#: src/app.tsx:838
+msgid ""
+"Cockpit is in limited access mode. Switch to administrative access to manage "
+"Docker on this system."
+msgstr ""
+
+#: src/app.tsx:850
+msgid "Docker is not installed"
+msgstr ""
+
+#: src/app.tsx:852
+msgid ""
+"Docker is not installed on this system. Install the docker service to manage "
+"your containers here."
+msgstr ""
+
+#: src/app.tsx:854
+msgid "See Docker installation instructions"
+msgstr ""
+
+#: src/app.tsx:866
+msgid "Docker service failed"
+msgstr ""
+
+#: src/app.tsx:870
+msgid "Troubleshoot"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:61
+msgid "Image name is required"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:68
+msgid "Image name is not unique"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:102
+msgid "Failed to commit container $0"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:111
+msgid "New image name"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:121
+#: src/components/ImageSearchModal.tsx:307
+msgid "Tag"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:130
+msgid "Author"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:133
+msgid "Example, Your Name <yourname@example.com>"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:139
+#: src/components/ContainerDetails.tsx:68
+#: src/components/ContainerHealthLogs.tsx:67 src/components/ImageDetails.tsx:78
+#: src/components/ImageRunModal.tsx:1010 src/components/ImageRunModal.tsx:1190
+msgid "Command"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:147
+#: src/components/CreateStackModal.tsx:165
+msgid "Options"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:152
+msgid "Pause container when creating image"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:165
+msgid "Commit container"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:166
+msgid "Create a new image based on the current state of the $0 container."
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:179
+#: src/components/Containers.tsx:513
+msgid "Commit"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:189
+msgid "Force commit"
+msgstr ""
+
+#: src/components/ContainerCommitModal.tsx:197
+#: src/components/ContainerDeleteModal.tsx:65
+#: src/components/ContainerRenameModal.tsx:135
+#: src/components/Containers.tsx:183 src/components/CreateStackModal.tsx:214
+#: src/components/ForceRemoveModal.tsx:56
+#: src/components/ImageDeleteModal.tsx:190
+#: src/components/ImageRunModal.tsx:1347
+#: src/components/ImageSearchModal.tsx:322
+#: src/components/PruneUnusedContainersModal.tsx:167
+#: src/components/PruneUnusedImagesModal.tsx:157
+#: src/components/StackActions.tsx:133
+msgid "Cancel"
+msgstr ""
+
+#: src/components/ContainerDeleteModal.tsx:45
+msgid "Failed to remove container $0"
+msgstr ""
+
+#: src/components/ContainerDeleteModal.tsx:57
+#: src/components/ForceRemoveModal.tsx:41
+msgid "Delete $0?"
+msgstr ""
+
+#: src/components/ContainerDeleteModal.tsx:61
+msgid "Deleting a container will erase all data in it."
+msgstr ""
+
+#: src/components/ContainerDeleteModal.tsx:64 src/components/Containers.tsx:525
+#: src/components/Images.tsx:983
+msgid "Delete"
+msgstr ""
+
+#: src/components/ContainerDetails.tsx:33
+msgid "Up since:"
+msgstr ""
+
+#: src/components/ContainerDetails.tsx:37
+msgid "Exited"
+msgstr ""
+
+#: src/components/ContainerDetails.tsx:59 src/components/Images.tsx:631
+msgid "ID"
+msgstr ""
+
+#: src/components/ContainerDetails.tsx:63 src/components/ImageRunModal.tsx:955
+#: src/components/Images.tsx:628
+msgid "Image"
+msgstr ""
+
+#: src/components/ContainerDetails.tsx:78 src/components/PublishPort.tsx:83
+msgid "IP address"
+msgstr ""
+
+#: src/components/ContainerDetails.tsx:83
+msgid "Gateway"
+msgstr ""
+
+#: src/components/ContainerDetails.tsx:88
+msgid "MAC address"
+msgstr ""
+
+#: src/components/ContainerDetails.tsx:97 src/components/ImageHistory.tsx:61
+#: src/components/Images.tsx:630
+#: src/components/PruneUnusedContainersModal.tsx:99
+msgid "Created"
+msgstr ""
+
+#: src/components/ContainerDetails.tsx:101 src/components/Containers.tsx:832
+msgid "State"
+msgstr ""
+
+#: src/components/ContainerHeader.tsx:47 src/components/Containers.tsx:829
+#: src/components/ImageRunModal.tsx:904 src/components/ImageSearchModal.tsx:210
+#: src/components/Images.tsx:629
+#: src/components/PruneUnusedContainersModal.tsx:105
+msgid "Owner"
+msgstr ""
+
+#: src/components/ContainerHeader.tsx:62 src/components/Containers.tsx:999
+#: src/components/ImageDeleteModal.tsx:161 src/components/ImageRunModal.tsx:852
+msgid "All"
+msgstr ""
+
+#: src/components/ContainerHeader.tsx:69
+msgid "Type to filter…"
+msgstr ""
+
+#: src/components/ContainerHealthLogs.tsx:32
+msgid "$0 second"
+msgid_plural "$0 seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/ContainerHealthLogs.tsx:63
+msgid "Status"
+msgstr ""
+
+#: src/components/ContainerHealthLogs.tsx:72
+#: src/components/ImageRunModal.tsx:1199
+msgid "Interval"
+msgstr ""
+
+#: src/components/ContainerHealthLogs.tsx:77
+#: src/components/ImageRunModal.tsx:1283
+msgid "Retries"
+msgstr ""
+
+#: src/components/ContainerHealthLogs.tsx:82
+#: src/components/ImageRunModal.tsx:1255
+msgid "Start period"
+msgstr ""
+
+#: src/components/ContainerHealthLogs.tsx:87
+#: src/components/ImageRunModal.tsx:1227
+msgid "Timeout"
+msgstr ""
+
+#: src/components/ContainerHealthLogs.tsx:92
+msgid "Failing streak"
+msgstr ""
+
+#: src/components/ContainerHealthLogs.tsx:99 src/components/Containers.tsx:735
+msgid "Logs"
+msgstr ""
+
+#: src/components/ContainerHealthLogs.tsx:102
+msgid "Last 5 runs"
+msgstr ""
+
+#: src/components/ContainerHealthLogs.tsx:102
+msgid "Started at"
+msgstr ""
+
+#: src/components/ContainerHealthLogs.tsx:113
+msgid "Passed health run"
+msgstr ""
+
+#: src/components/ContainerHealthLogs.tsx:113
+msgid "Failed health run"
+msgstr ""
+
+#: src/components/ContainerIntegration.tsx:114
+msgid "Read-write access"
+msgstr ""
+
+#: src/components/ContainerIntegration.tsx:115
+msgid "Read-only access"
+msgstr ""
+
+#: src/components/ContainerIntegration.tsx:158
+msgid "Show less"
+msgstr ""
+
+#: src/components/ContainerIntegration.tsx:158
+#: src/components/PruneUnusedImagesModal.tsx:69
+msgid "Show more"
+msgstr ""
+
+#: src/components/ContainerIntegration.tsx:175
+#: src/components/ImageHistory.tsx:87
+msgid "Loading details..."
+msgstr ""
+
+#: src/components/ContainerIntegration.tsx:192
+#: src/components/ImageDetails.tsx:98
+msgid "Ports"
+msgstr ""
+
+#: src/components/ContainerIntegration.tsx:197
+#: src/components/ImageRunModal.tsx:1163
+msgid "Volumes"
+msgstr ""
+
+#: src/components/ContainerIntegration.tsx:202
+#: src/components/ImageRunModal.tsx:1177
+msgid "Environment variables"
+msgstr ""
+
+#: src/components/ContainerLogs.tsx:75
+msgid "Loading logs..."
+msgstr ""
+
+#: src/components/ContainerLogs.tsx:151
+msgid "Streaming disconnected"
+msgstr ""
+
+#: src/components/ContainerRenameModal.tsx:52
+#: src/components/ContainerRenameModal.tsx:66
+msgid "Container name is required."
+msgstr ""
+
+#: src/components/ContainerRenameModal.tsx:56
+#: src/components/CreateStackModal.tsx:106
+msgid ""
+"Invalid characters. Name can only contain letters, numbers, and certain "
+"punctuation (_ . -)."
+msgstr ""
+
+#: src/components/ContainerRenameModal.tsx:75
+msgid "Failed to rename container $0"
+msgstr ""
+
+#: src/components/ContainerRenameModal.tsx:94
+msgid "New container name"
+msgstr ""
+
+#: src/components/ContainerRenameModal.tsx:115
+msgid "Rename container $0"
+msgstr ""
+
+#: src/components/ContainerRenameModal.tsx:128
+#: src/components/Containers.tsx:464
+msgid "Rename"
+msgstr ""
+
+#: src/components/ContainerTerminal.tsx:184
+msgid "Failed to connect to the console"
+msgstr ""
+
+#: src/components/ContainerTerminal.tsx:320
+msgid "Container is not running"
+msgstr ""
+
+#: src/components/ContainerTerminal.tsx:324
+msgid "Error occurred while connecting console"
+msgstr ""
+
+#: src/components/Containers.tsx:78
+msgid "Healthy"
+msgstr ""
+
+#: src/components/Containers.tsx:80
+msgid "Unhealthy"
+msgstr ""
+
+#: src/components/Containers.tsx:82
+msgid "Checking health"
+msgstr ""
+
+#: src/components/Containers.tsx:112
+msgid "Start all containers"
+msgstr ""
+
+#: src/components/Containers.tsx:122
+msgid "Stop all containers"
+msgstr ""
+
+#: src/components/Containers.tsx:131
+msgid "View port map"
+msgstr ""
+
+#: src/components/Containers.tsx:143
+#: src/components/PruneUnusedContainersModal.tsx:144
+msgid "Prune unused containers"
+msgstr ""
+
+#: src/components/Containers.tsx:167
+msgid "Remove stack $0?"
+msgstr ""
+
+#: src/components/Containers.tsx:169
+msgid ""
+"Removing this stack will permanently delete its docker-compose.yml and .env "
+"files. The stack cannot be started again."
+msgstr ""
+
+#: src/components/Containers.tsx:181 src/components/Containers.tsx:291
+#: src/components/StackActions.tsx:131 src/components/StackActions.tsx:340
+msgid "Remove"
+msgstr ""
+
+#: src/components/Containers.tsx:212 src/components/Containers.tsx:1094
+msgid "Failed to start stack $0"
+msgstr ""
+
+#: src/components/Containers.tsx:243 src/components/StackActions.tsx:266
+msgid "Stack folder path copied to clipboard"
+msgstr ""
+
+#: src/components/Containers.tsx:247 src/components/StackActions.tsx:270
+msgid "Failed to copy stack folder path to clipboard"
+msgstr ""
+
+#: src/components/Containers.tsx:262 src/components/StackActions.tsx:246
+msgid "Failed to remove stack $0"
+msgstr ""
+
+#: src/components/Containers.tsx:278 src/components/Containers.tsx:504
+#: src/components/StackActions.tsx:317
+msgid "Start"
+msgstr ""
+
+#: src/components/Containers.tsx:285 src/components/StackActions.tsx:327
+msgid "Edit"
+msgstr ""
+
+#: src/components/Containers.tsx:288 src/components/StackActions.tsx:335
+msgid "Copy folder path"
+msgstr ""
+
+#: src/components/Containers.tsx:357
+msgid "Failed to force remove container $0"
+msgstr ""
+
+#: src/components/Containers.tsx:366
+msgid "Deleting this container will erase all data in it."
+msgstr ""
+
+#: src/components/Containers.tsx:384 src/components/Containers.tsx:984
+msgid "Failed to stop container $0"
+msgstr ""
+
+#: src/components/Containers.tsx:395 src/components/Containers.tsx:966
+msgid "Failed to start container $0"
+msgstr ""
+
+#: src/components/Containers.tsx:406
+msgid "Failed to resume container $0"
+msgstr ""
+
+#: src/components/Containers.tsx:417
+msgid "Failed to pause container $0"
+msgstr ""
+
+#: src/components/Containers.tsx:441
+msgid "Failed to restart container $0"
+msgstr ""
+
+#: src/components/Containers.tsx:473 src/components/StackActions.tsx:301
+msgid "Stop"
+msgstr ""
+
+#: src/components/Containers.tsx:476 src/components/StackActions.tsx:304
+msgid "Force stop"
+msgstr ""
+
+#: src/components/Containers.tsx:479 src/components/StackActions.tsx:307
+msgid "Restart"
+msgstr ""
+
+#: src/components/Containers.tsx:482 src/components/StackActions.tsx:310
+msgid "Force restart"
+msgstr ""
+
+#: src/components/Containers.tsx:489
+msgid "Pause"
+msgstr ""
+
+#: src/components/Containers.tsx:495
+msgid "Resume"
+msgstr ""
+
+#: src/components/Containers.tsx:668
+msgid "$0% of $1 limit"
+msgstr ""
+
+#: src/components/Containers.tsx:705 src/components/Images.tsx:581
+#: src/components/PruneUnusedContainersModal.tsx:51
+msgid "user:"
+msgstr ""
+
+#: src/components/Containers.tsx:724 src/components/ImageRunModal.tsx:900
+#: src/components/Images.tsx:603
+msgid "Details"
+msgstr ""
+
+#: src/components/Containers.tsx:730 src/components/ImageRunModal.tsx:1145
+msgid "Integration"
+msgstr ""
+
+#: src/components/Containers.tsx:745
+msgid "Console"
+msgstr ""
+
+#: src/components/Containers.tsx:760 src/components/ImageRunModal.tsx:1188
+msgid "Health check"
+msgstr ""
+
+#: src/components/Containers.tsx:828 src/components/PortMapModal.tsx:524
+msgid "Container"
+msgstr ""
+
+#: src/components/Containers.tsx:830 src/components/StackActions.tsx:350
+#: src/components/StackActions.tsx:353
+msgid "CPU"
+msgstr ""
+
+#: src/components/Containers.tsx:831 src/components/StackActions.tsx:357
+#: src/components/StackActions.tsx:360
+msgid "Memory"
+msgstr ""
+
+#: src/components/Containers.tsx:833 src/components/Containers.tsx:1109
+msgid "Actions"
+msgstr ""
+
+#: src/components/Containers.tsx:838
+msgid "No containers"
+msgstr ""
+
+#: src/components/Containers.tsx:840 src/components/ImageUsedBy.tsx:31
+#: src/components/Images.tsx:637
+msgid "Loading..."
+msgstr ""
+
+#: src/components/Containers.tsx:842
+msgid "No containers that match the current filter"
+msgstr ""
+
+#: src/components/Containers.tsx:844
+msgid "No running containers"
+msgstr ""
+
+#: src/components/Containers.tsx:995
+msgid "Show"
+msgstr ""
+
+#: src/components/Containers.tsx:1000
+msgid "Only running"
+msgstr ""
+
+#: src/components/Containers.tsx:1006 src/components/CreateStackModal.tsx:150
+#: src/components/CreateStackModal.tsx:206
+msgid "Create stack"
+msgstr ""
+
+#: src/components/Containers.tsx:1017 src/components/ImageRunModal.tsx:1329
+#: src/components/Images.tsx:955 src/components/Images.tsx:966
+msgid "Create container"
+msgstr ""
+
+#: src/components/Containers.tsx:1038 src/components/Containers.tsx:1055
+#: src/components/Containers.tsx:1155 src/components/Containers.tsx:1161
+msgid "Containers"
+msgstr ""
+
+#: src/components/Containers.tsx:1073
+msgid "stack"
+msgstr ""
+
+#: src/components/Containers.tsx:1080
+msgid "Containers of stack $0"
+msgstr ""
+
+#: src/components/Containers.tsx:1081
+msgid "No containers in this stack"
+msgstr ""
+
+#: src/components/Containers.tsx:1101 src/components/Containers.tsx:1106
+msgid "Inactive stacks"
+msgstr ""
+
+#: src/components/Containers.tsx:1108 src/components/ImageRunModal.tsx:880
+#: src/components/PruneUnusedContainersModal.tsx:98
+msgid "Name"
+msgstr ""
+
+#: src/components/CreateStackModal.tsx:102
+#: src/components/CreateStackModal.tsx:119
+msgid "Project name is required."
+msgstr ""
+
+#: src/components/CreateStackModal.tsx:139
+msgid "Failed to create stack $0"
+msgstr ""
+
+#: src/components/CreateStackModal.tsx:150
+msgid "Edit stack $0"
+msgstr ""
+
+#: src/components/CreateStackModal.tsx:154
+msgid "Project name"
+msgstr ""
+
+#: src/components/CreateStackModal.tsx:170
+msgid "Build local images when starting"
+msgstr ""
+
+#: src/components/CreateStackModal.tsx:171
+msgid ""
+"Runs docker compose up --build when starting the stack, for images built "
+"from a Dockerfile in the stack folder."
+msgstr ""
+
+#: src/components/CreateStackModal.tsx:174
+msgid "docker-compose.yml"
+msgstr ""
+
+#: src/components/CreateStackModal.tsx:185
+msgid ".env"
+msgstr ""
+
+#: src/components/CreateStackModal.tsx:206
+msgid "Save"
+msgstr ""
+
+#: src/components/Env.tsx:36
+msgid "Key must not be empty"
+msgstr ""
+
+#: src/components/Env.tsx:38
+msgid "Key must not begin with a digit"
+msgstr ""
+
+#: src/components/Env.tsx:40
+msgid "Key contains invalid characters"
+msgstr ""
+
+#: src/components/Env.tsx:113
+msgid "Key"
+msgstr ""
+
+#: src/components/Env.tsx:132
+msgid "Value"
+msgstr ""
+
+#: src/components/Env.tsx:153 src/components/PublishPort.tsx:182
+#: src/components/Volume.tsx:122
+msgid "Remove item"
+msgstr ""
+
+#: src/components/ForceRemoveModal.tsx:54
+msgid "Force delete"
+msgstr ""
+
+#: src/components/ImageDeleteModal.tsx:98
+msgid "Failed to force remove image $0"
+msgstr ""
+
+#: src/components/ImageDeleteModal.tsx:112
+msgid "intermediate image"
+msgstr ""
+
+#: src/components/ImageDeleteModal.tsx:128
+msgid "Failed to remove image $0"
+msgstr ""
+
+#: src/components/ImageDeleteModal.tsx:134
+msgid "intermediate"
+msgstr ""
+
+#: src/components/ImageDeleteModal.tsx:150
+msgid "Delete $0 image?"
+msgstr ""
+
+#: src/components/ImageDeleteModal.tsx:155
+msgid "Multiple tags exist for this image. Select the tagged images to delete."
+msgstr ""
+
+#: src/components/ImageDeleteModal.tsx:188
+msgid "Delete image"
+msgstr ""
+
+#: src/components/ImageDeleteModal.tsx:188
+msgid "Delete tagged images"
+msgstr ""
+
+#: src/components/ImageDetails.tsx:52
+msgid "Description"
+msgstr ""
+
+#: src/components/ImageDetails.tsx:57
+msgid "Version"
+msgstr ""
+
+#: src/components/ImageDetails.tsx:62
+msgid "Links"
+msgstr ""
+
+#: src/components/ImageDetails.tsx:72
+msgid "Documentation"
+msgstr ""
+
+#: src/components/ImageDetails.tsx:83 src/components/ImageRunModal.tsx:1006
+msgid "Entrypoint"
+msgstr ""
+
+#: src/components/ImageDetails.tsx:88
+msgid "Tags"
+msgstr ""
+
+#: src/components/ImageDetails.tsx:93 src/components/Images.tsx:633
+msgid "Used by"
+msgstr ""
+
+#: src/components/ImageHistory.tsx:61
+msgid "Created by"
+msgstr ""
+
+#: src/components/ImageHistory.tsx:61
+msgid "Size"
+msgstr ""
+
+#: src/components/ImageHistory.tsx:61
+msgid "Comments"
+msgstr ""
+
+#: src/components/ImageHistory.tsx:87
+msgid "Unable to load image history"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:379
+msgid "Container failed to be started"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:386
+msgid "Failed to clean up container"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:398
+msgid "Container failed to be created"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:441
+msgid "Failed to pull image $0"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:453
+msgid "Failed to run container"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:561 src/components/ImageSearchModal.tsx:152
+msgid "Failed to search for new images"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:562 src/components/ImageSearchModal.tsx:153
+msgid "Failed to search for images: $0"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:562 src/components/ImageSearchModal.tsx:153
+msgid "Failed to search for images."
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:692 src/components/ImageSearchModal.tsx:274
+msgid "Search results"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:756
+msgid "Name already in use"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:850
+msgid "Search in"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:860
+msgid "Local"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:884
+msgid "Container name"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:907
+msgid "Owner help"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:912 src/components/ImageRunModal.tsx:948
+msgid "System"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:915
+msgid "Ideal for running services"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:918
+msgid "Resource limits can be set"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:921
+msgid "Ports under 1024 can be mapped"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:929
+msgid "Ideal for development"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:932
+msgid "Restricted by user account permissions"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:948
+msgid "User:"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:960
+msgid "Image selection help"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:964
+msgid "host[:port]/[user]/container[:tag]"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:965
+msgid "Example: $0"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:966
+msgid "Searching: $0"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:980
+msgid "Use image $0"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:981 src/components/ImageRunModal.tsx:982
+#: src/components/ImageSearchModal.tsx:260
+msgid "No images found"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:985
+msgid "Search string or container location"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1001
+msgid "Pull latest image"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1022
+msgid "With terminal"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1027
+msgid "Memory limit"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1042
+msgid "Decrease memory"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1043
+msgid "Increase memory"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1048
+msgid "Memory unit"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1054
+msgid "KB"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1055
+msgid "MB"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1056
+msgid "GB"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1064
+msgid "CPU shares"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1067
+msgid "CPU Shares help"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1069
+msgid ""
+"CPU shares determine the priority of running containers. Default priority is "
+"1024. A higher number prioritizes this container. A lower number decreases "
+"priority."
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1090
+msgid "Decrease CPU shares"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1091
+msgid "Increase CPU shares"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1099
+msgid "Restart policy"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1102 src/components/ImageRunModal.tsx:1112
+msgid "Restart policy help"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1104
+msgid "Restart policy to follow when containers exit."
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1116
+msgid "No"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1117
+msgid "On failure"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1118
+msgid "Always"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1126
+msgid "Maximum retries"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1134
+msgid "Decrease maximum retries"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1135
+msgid "Increase maximum retries"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1149
+msgid "No ports exposed"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1151
+msgid "Port mapping"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1152
+msgid "Add port mapping"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1161
+msgid "No volumes specified"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1164
+msgid "Add volume"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1175
+msgid "No environment variables specified"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1178
+msgid "Add variable"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1183
+msgid ""
+"Paste one or more lines of key=value pairs into any field for bulk import"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1202
+msgid "Health check interval help"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1204
+msgid "Interval how often health check is run."
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1217
+msgid "Decrease interval"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1218
+msgid "Increase interval"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1223 src/components/ImageRunModal.tsx:1251
+#: src/components/ImageRunModal.tsx:1279
+msgid "seconds"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1230
+msgid "Health check timeout help"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1232
+msgid ""
+"The maximum time allowed to complete the health check before an interval is "
+"considered failed."
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1245
+msgid "Decrease timeout"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1246
+msgid "Increase timeout"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1258
+msgid "Health check start period help"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1260
+msgid "The initialization time needed for a container to bootstrap."
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1273
+msgid "Decrease start period"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1274
+msgid "Increase start period"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1286
+msgid "Health check retries help"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1288
+msgid ""
+"The number of retries allowed before a healthcheck is considered to be "
+"unhealthy."
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1300
+msgid "Decrease retries"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1301
+msgid "Increase retries"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1338
+msgid "Create and run"
+msgstr ""
+
+#: src/components/ImageRunModal.tsx:1344
+msgid "Create"
+msgstr ""
+
+#: src/components/ImageSearchModal.tsx:162
+#: src/components/ImageSearchModal.tsx:251
+msgid "Image will be pulled directly from its registry"
+msgstr ""
+
+#: src/components/ImageSearchModal.tsx:205
+msgid "Search for an image"
+msgstr ""
+
+#: src/components/ImageSearchModal.tsx:222
+msgid "Search for"
+msgstr ""
+
+#: src/components/ImageSearchModal.tsx:226
+msgid "Search by name or description"
+msgstr ""
+
+#: src/components/ImageSearchModal.tsx:253
+msgid ""
+"Registries other than Docker Hub cannot be searched; the image is downloaded "
+"as-is from the given registry."
+msgstr ""
+
+#: src/components/ImageSearchModal.tsx:258
+msgid "Searching..."
+msgstr ""
+
+#: src/components/ImageSearchModal.tsx:260
+msgid "Start typing to look for images."
+msgstr ""
+
+#: src/components/ImageSearchModal.tsx:267
+msgid "No results for $0"
+msgstr ""
+
+#: src/components/ImageSearchModal.tsx:268
+msgid "Retry another term."
+msgstr ""
+
+#: src/components/ImageSearchModal.tsx:319
+msgid "Download"
+msgstr ""
+
+#: src/components/ImageUsedBy.tsx:33
+msgid "No containers are using this image"
+msgstr ""
+
+#: src/components/ImageUsedBy.tsx:55 src/components/StackActions.tsx:66
+msgid "Running"
+msgstr ""
+
+#: src/components/Images.tsx:462
+msgid "Failed to download image $0"
+msgstr ""
+
+#: src/components/Images.tsx:464 src/components/Notification.tsx:57
+msgid "Error message"
+msgstr ""
+
+#: src/components/Images.tsx:505 src/components/Images.tsx:512
+msgid "unused"
+msgstr ""
+
+#: src/components/Images.tsx:509
+msgid "$0 container"
+msgid_plural "$0 containers"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/Images.tsx:571
+msgid "local"
+msgstr ""
+
+#: src/components/Images.tsx:573
+msgid "Update in progress"
+msgstr ""
+
+#: src/components/Images.tsx:574
+msgid "Update available"
+msgstr ""
+
+#: src/components/Images.tsx:612
+msgid "History"
+msgstr ""
+
+#: src/components/Images.tsx:632
+msgid "Disk space"
+msgstr ""
+
+#: src/components/Images.tsx:635
+msgid "No images"
+msgstr ""
+
+#: src/components/Images.tsx:639
+msgid "No images that match the current filter"
+msgstr ""
+
+#: src/components/Images.tsx:720 src/components/Images.tsx:758
+msgid "Images"
+msgstr ""
+
+#: src/components/Images.tsx:738
+msgid "$0 image total, $1"
+msgid_plural "$0 images total, $1"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/Images.tsx:742
+msgid "$0 unused image, $1"
+msgid_plural "$0 unused images, $1"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/Images.tsx:746
+msgid "$0 update available"
+msgid_plural "$0 updates available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/components/Images.tsx:780
+msgid "Hide images"
+msgstr ""
+
+#: src/components/Images.tsx:780
+msgid "Show images"
+msgstr ""
+
+#: src/components/Images.tsx:807
+msgid "Pulling"
+msgstr ""
+
+#: src/components/Images.tsx:844
+msgid "Download new image"
+msgstr ""
+
+#: src/components/Images.tsx:851
+msgid "Pull all images"
+msgstr ""
+
+#: src/components/Images.tsx:862 src/components/PruneUnusedImagesModal.tsx:130
+msgid "Prune unused images"
+msgstr ""
+
+#: src/components/Images.tsx:876
+msgid "Show intermediate images"
+msgstr ""
+
+#: src/components/Images.tsx:975
+msgid "Pull"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:399
+msgid "Port $0 is also used by $1"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:408 src/components/PortMapModal.tsx:418
+msgid "stopped"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:430
+msgid "inactive stack"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:523 src/components/PublishPort.tsx:110
+msgid "Host port"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:525
+msgid "Stack"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:565 src/components/PortMapModal.tsx:568
+#: src/components/PortMapModal.tsx:608
+msgid "Port map"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:580
+msgid "Include stopped containers and inactive stacks"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:588
+msgid "Group ports by container"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:595
+msgid "Host ports in use by containers and stacks"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:600
+msgid "Could not read the ports of some inactive stacks"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:605
+msgid "Loading inactive stacks..."
+msgstr ""
+
+#: src/components/PortMapModal.tsx:615
+msgid "No host ports are in use"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:616
+msgid "No containers publish any host port"
+msgstr ""
+
+#: src/components/PortMapModal.tsx:617
+msgid ""
+"Use the display options in the dialog header to show the ports of stopped "
+"containers and inactive stacks."
+msgstr ""
+
+#: src/components/PruneUnusedContainersModal.tsx:90
+msgid "Failed to prune unused containers"
+msgstr ""
+
+#: src/components/PruneUnusedContainersModal.tsx:146
+msgid "Removes selected non-running containers"
+msgstr ""
+
+#: src/components/PruneUnusedContainersModal.tsx:160
+#: src/components/PruneUnusedContainersModal.tsx:165
+msgid "Pruning containers"
+msgstr ""
+
+#: src/components/PruneUnusedContainersModal.tsx:165
+#: src/components/PruneUnusedImagesModal.tsx:155
+msgid "Prune"
+msgstr ""
+
+#: src/components/PruneUnusedImagesModal.tsx:53
+msgid "Delete unused system images:"
+msgstr ""
+
+#: src/components/PruneUnusedImagesModal.tsx:54
+msgid "Delete unused images of user $0:"
+msgstr ""
+
+#: src/components/PruneUnusedImagesModal.tsx:104
+msgid "Failed to prune unused images"
+msgstr ""
+
+#: src/components/PruneUnusedImagesModal.tsx:150
+#: src/components/PruneUnusedImagesModal.tsx:155
+msgid "Pruning images"
+msgstr ""
+
+#: src/components/PublishPort.tsx:42
+msgid "Must be a valid IP address"
+msgstr ""
+
+#: src/components/PublishPort.tsx:50 src/components/PublishPort.tsx:61
+msgid "1 to 65535"
+msgstr ""
+
+#: src/components/PublishPort.tsx:57
+msgid "Container port must not be empty"
+msgstr ""
+
+#: src/components/PublishPort.tsx:87
+msgid "IP address help"
+msgstr ""
+
+#: src/components/PublishPort.tsx:89
+msgid ""
+"If host IP is set to 0.0.0.0 or not set at all, the port will be bound on "
+"all IPs on the host."
+msgstr ""
+
+#: src/components/PublishPort.tsx:114
+msgid "Host port help"
+msgstr ""
+
+#: src/components/PublishPort.tsx:116
+msgid ""
+"If the host port is not set the container port will be randomly assigned a "
+"port on the host."
+msgstr ""
+
+#: src/components/PublishPort.tsx:141
+msgid "Container port"
+msgstr ""
+
+#: src/components/PublishPort.tsx:163
+msgid "Protocol"
+msgstr ""
+
+#: src/components/PublishPort.tsx:172
+msgid "TCP"
+msgstr ""
+
+#: src/components/PublishPort.tsx:173
+msgid "UDP"
+msgstr ""
+
+#: src/components/StackActions.tsx:67
+msgid "Paused"
+msgstr ""
+
+#: src/components/StackActions.tsx:68
+msgid "Stopped"
+msgstr ""
+
+#: src/components/StackActions.tsx:69
+msgid "Degraded"
+msgstr ""
+
+#: src/components/StackActions.tsx:112
+msgid "Remove stack?"
+msgstr ""
+
+#: src/components/StackActions.tsx:115
+msgid ""
+"Removing this stack will permanently delete the following containers. Its "
+"compose files are kept, so the stack can be started again."
+msgstr ""
+
+#: src/components/StackActions.tsx:221
+msgid "start"
+msgstr ""
+
+#: src/components/StackActions.tsx:221
+msgid "stop"
+msgstr ""
+
+#: src/components/StackActions.tsx:221
+msgid "restart"
+msgstr ""
+
+#: src/components/StackActions.tsx:225
+msgid "Failed to $0 stack $1"
+msgstr ""
+
+#: src/components/StackActions.tsx:365
+msgid "Click to see published ports"
+msgstr ""
+
+#: src/components/StackActions.tsx:372
+msgid "ports"
+msgstr ""
+
+#: src/components/Volume.tsx:41
+msgid "Container path must not be empty"
+msgstr ""
+
+#: src/components/Volume.tsx:61
+msgid "Host path"
+msgstr ""
+
+#: src/components/Volume.tsx:80
+msgid "Container path"
+msgstr ""
+
+#: src/components/Volume.tsx:96
+msgid "Mode"
+msgstr ""
+
+#: src/components/Volume.tsx:99
+msgid "Writable"
+msgstr ""
+
+#: src/components/Volume.tsx:105
+msgid "SELinux"
+msgstr ""
+
+#: src/components/Volume.tsx:112
+msgid "No label"
+msgstr ""
+
+#: src/components/Volume.tsx:113
+msgid "Shared"
+msgstr ""
+
+#: src/components/Volume.tsx:114
+msgid "Private"
+msgstr ""
+
+#: src/manifest.json:0
+msgid "Docker containers"
+msgstr ""
+
+#: src/manifest.json:0
+msgid "docker"
+msgstr ""
+
+#: src/manifest.json:0
+msgid "virtualization"
+msgstr ""
+
+#: src/manifest.json:0
+msgid "compose"
+msgstr ""
+
+#: src/manifest.json:0
+msgid "images"
+msgstr ""
+
+#: in.yashjawale.cockpit_whale.metainfo.xml:6
+msgid "Manage Docker containers and images"
+msgstr ""
+
+#: in.yashjawale.cockpit_whale.metainfo.xml:8
+msgid "A simple Cockpit module for managing Docker containers and images."
+msgstr ""
+
+#: in.yashjawale.cockpit_whale.metainfo.xml:11
+msgid ""
+"You can start, stop, remove and inspect containers, run and search images, "
+"create and manage stacks, and more."
+msgstr ""
+
+#: in.yashjawale.cockpit_whale.metainfo.xml:22
+msgid "Yash Jawale"
+msgstr ""
